@@ -1,0 +1,106 @@
+.grid{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: minmax(60%, auto);
+    grid-template-areas:
+        'leftbar rightbar';
+}
+
+.page-LeftMaincontent{
+    grid-area: leftbar;
+    display: block;
+    font-size: 20px;
+    height: 1000px;
+}
+.page-RightMaincontent{
+    grid-area: rightbar;
+}
+.ProfilePadding{
+    padding: 10px;
+    width: 90%;
+    margin: auto;
+    margin-top: 5%;
+    background-color: #E8A317;
+}
+.Profile{
+    width: 100%;
+    margin: auto; 
+}
+.ContentBox{
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: 'Rubik', sans-serif;
+}
+.ml-3{
+    margin-left: 10px;
+}
+.boxname{
+    height: 120px;
+    background-color: #E8A317;
+}
+.name{
+    position: relative;
+    top: 20px;
+    font-family: 'Lora', serif;
+    font-weight: bolder;
+}
+.titletext{
+    width: 750px;
+}
+.text{
+    margin-left: 10px;
+    font-family: 'Kanit', sans-serif;
+}
+.text2{
+    margin-left: 40px;
+}
+.ml-4{
+    width: 50px;
+    margin-left: 40px;
+    font-family: 'Taviraj', serif;
+}
+.ml-5{
+    margin-left: 40px;
+    font-family: 'Taviraj', serif;
+}
+.ml-6{
+    margin-left: 40px;
+    font-family: 'Taviraj', serif;
+}
+.ml-7{
+    margin-left: 10px;
+    font-family: 'Prompt', sans-serif;
+}
+.text3{
+    margin-left: 10px;
+    width: 2000px;
+
+}
+.ml-8{
+    margin-left: 100px;
+    font-family: 'Prompt', sans-serif;
+}
+.ml-9{
+    margin-left: 83px;
+    font-family: 'Prompt', sans-serif;
+}
+.contentExperience{
+    margin-left: 290px;
+    width: 2000px;
+    font-family: 'Zilla Slab', serif;
+}
+.text4{
+    margin-left: 10px;
+    width: 2000px;
+    margin-top: 60px;
+}
+.text5{
+    margin-left: 10px;
+    width: 2000px;
+    margin-top: 60px;
+}
+.ml-10{
+    font-family: 'Zilla Slab', serif;
+    margin-left: 80px;
+}
