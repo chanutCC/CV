@@ -5,7 +5,9 @@
     grid-template-areas:
         'leftbar rightbar';
 }
-
+body{
+    background-color: #ffffff;
+}
 .page-LeftMaincontent{
     grid-area: leftbar;
     display: block;
@@ -43,14 +45,14 @@
     position: relative;
     top: 20px;
     font-family: 'Lora', serif;
-    font-weight: bolder;
 }
 .titletext{
     width: 750px;
 }
 .text{
     margin-left: 10px;
-    font-family: 'Kanit', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
 }
 .text2{
     margin-left: 40px;
@@ -58,19 +60,19 @@
 .ml-4{
     width: 50px;
     margin-left: 40px;
-    font-family: 'Taviraj', serif;
+    font-family: 'Inter', sans-serif;
 }
 .ml-5{
     margin-left: 40px;
-    font-family: 'Taviraj', serif;
+    font-family: 'Inter', sans-serif;
 }
 .ml-6{
     margin-left: 40px;
-    font-family: 'Taviraj', serif;
+    font-family: 'Inter', sans-serif;
 }
 .ml-7{
     margin-left: 10px;
-    font-family: 'Prompt', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 .text3{
     margin-left: 10px;
@@ -79,16 +81,16 @@
 }
 .ml-8{
     margin-left: 100px;
-    font-family: 'Prompt', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 .ml-9{
     margin-left: 83px;
-    font-family: 'Prompt', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 .contentExperience{
     margin-left: 290px;
     width: 1000px;
-    font-family: 'Zilla Slab', serif;
+    font-family: 'Inter', sans-serif;
 }
 .text4{
     margin-left: 10px;
@@ -101,6 +103,6 @@
     margin-top: 60px;
 }
 .ml-10{
-    font-family: 'Zilla Slab', serif;
+    font-family: 'Inter', sans-serif;
     margin-left: 80px;
 }
