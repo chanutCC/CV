@@ -1,21 +1,5 @@
-.grid{
-    display: grid;
-    grid-template-columns: 30% 70%;
-    grid-template-rows: minmax(60%, auto);
-    grid-template-areas:
-        'leftbar rightbar';
-}
 body{
     background-color: #ffffff;
-}
-.page-LeftMaincontent{
-    grid-area: leftbar;
-    display: block;
-    font-size: 20px;
-    height: 1000px;
-}
-.page-RightMaincontent{
-    grid-area: rightbar;
 }
 .ProfilePadding{
     padding: 10px;
@@ -29,10 +13,9 @@ body{
     margin: auto; 
 }
 .ContentBox{
-    margin-top: 10%;
-    margin-left: 5%;
-    margin-right: 5%;
     font-family: 'Rubik', sans-serif;
+    margin-top: 5%;
+    margin-left: 10%;
 }
 .ml-3{
     margin-left: 10px;
@@ -46,9 +29,7 @@ body{
     top: 20px;
     font-family: 'Lora', serif;
 }
-.titletext{
-    width: 750px;
-}
+
 .text{
     margin-left: 10px;
     font-family: 'Roboto Condensed', sans-serif;
@@ -76,7 +57,6 @@ body{
 }
 .text3{
     margin-left: 10px;
-    width: 1000px;
 
 }
 .ml-8{
@@ -89,17 +69,14 @@ body{
 }
 .contentExperience{
     margin-left: 290px;
-    width: 1000px;
     font-family: 'Inter', sans-serif;
 }
 .text4{
     margin-left: 10px;
-    width: 1000px;
     margin-top: 60px;
 }
 .text5{
     margin-left: 10px;
-    width: 1000px;
     margin-top: 60px;
 }
 .ml-10{
